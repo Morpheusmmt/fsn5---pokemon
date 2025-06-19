@@ -1,0 +1,98 @@
+.Card {
+  max-width: 320px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #333;
+}
+
+.Card h1 {
+  color: #2a2a2a;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.Card img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.tipos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+.tipos span {
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-poison { background-color: #a040a0; }
+.tipo-ground { background-color: #e0c068; }
+.tipo-fire { background-color: #f08030; }
+.tipo-water { background-color: #6890f0; }
+.tipo-grass { background-color: #78c850; }
+.tipo-psychic { background-color: rgb(31, 136, 136);}
+.tipo-electric { background-color: #f8d030; }
+.tipo-flying { background-color: #a890f0; }
+.tipo-normal { background-color: #000000; }
+.tipo-fairy { background-color: #f0b6c1; }
+.tipo-rock {background-color: #703307;}
+.tipo-fighting { background-color: #c03028; }
+
+.detalhes {
+  background-color: #f0f0f0;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.detalhes p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.habilidades, .stats {
+  margin: 20px 0;
+}
+
+.habilidades h3, .stats h3 {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+  color: #444;
+}
+
+.habilidades ul, .stats ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.habilidades li, .stats li {
+  background-color: #f8f8f8;
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.stats li {
+  display: flex;
+  justify-content: space-between;
+}
